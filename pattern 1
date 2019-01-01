@@ -1,0 +1,44 @@
+import java.io.*;
+class pyjama
+{
+    public static void main(String args[])throws IOException
+    {
+        for(char r='f';r>='a';r--)
+        {
+           for(char c1='a';c1<=r;c1++)
+           {
+               System.out.print(c1);
+            }
+            for(char s='f';s>r;s--)
+            {
+                System.out.print("  ");
+            }
+            for(char c2=r;c2>='a';c2--)
+            {
+                System.out.print(c2);
+            }
+            System.out.println();
+        }
+        char x='a';
+         for(char r1='a';r1<='f';r1++)
+        {
+            for(char cl1='a';cl1<=r1;cl1++)
+            {
+                System.out.print(cl1);
+            }
+            for(char s1='f';s1>r1;s1--)
+            {
+                System.out.print("  ");
+            }
+            for(char cl2=x;cl2>='a';cl2--)
+            {
+                
+                System.out.print(cl2);
+            }
+            System.out.println();
+            x++;
+        }
+    }
+}
+    
+
